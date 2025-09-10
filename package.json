@@ -1,0 +1,20 @@
+{
+  "name": "revenuestreams-pro",
+  "version": "1.0.0",
+  "description": "A profit-sharing website with ad revenue and crypto mining",
+  "scripts": {
+    "build": "echo 'Build script executed'", // Replace with your actual build command
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "axios": "^1.5.0",
+    "node-cron": "^3.0.2"
+  },
+  "devDependencies": {
+    "netlify-cli": "^12.0.0"
+  }
+}
